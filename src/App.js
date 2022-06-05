@@ -1,23 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import DictionarySearch from "./DictionarySearch";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
+      <header className="app-header">Dictionary</header>
+      <main>
+        <DictionarySearch />
+      </main>
+      <footer className="app-footer">
+        Coded by{" "}
         <a
-          className="App-link"
-          href="https://reactjs.org"
+          href="https://extraordinary-stroopwafel-905036.netlify.app/"
           target="_blank"
-          rel="noopener noreferrer"
+          rel="noreferrer"
         >
-          Learn React
+          Alanta
         </a>
-      </header>
+        , open-sourced on{" "}
+        <a
+          href="https://github.com/alantaa/weather-react"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Github
+        </a>
+      </footer>
     </div>
   );
 }
