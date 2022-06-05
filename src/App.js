@@ -4,11 +4,15 @@ import DictionarySearch from "./DictionarySearch";
 function App() {
   return (
     <div className="App">
-      <header className="app-header">Dictionary</header>
+      <header className="app-header">
+        <h1>Dictionary</h1>
+      </header>
       <main>
         <DictionarySearch />
       </main>
       <footer className="app-footer">
+        <hr />
+        <br />
         Coded by{" "}
         <a
           href="https://extraordinary-stroopwafel-905036.netlify.app/"
