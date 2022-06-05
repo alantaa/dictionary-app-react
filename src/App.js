@@ -19,7 +19,7 @@ function App() {
         </a>
         , open-sourced on{" "}
         <a
-          href="https://github.com/alantaa/weather-react"
+          href="https://github.com/alantaa/dictionary-app-react"
           target="_blank"
           rel="noreferrer"
         >
