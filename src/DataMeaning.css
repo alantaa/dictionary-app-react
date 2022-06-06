@@ -1,3 +1,11 @@
 .title {
   text-transform: capitalize !important;
+  font-size: 30px;
+  line-height: 1;
+  border-left: #c4c4c4 solid 2px;
+  padding-left: 25px;
+}
+.DataMeaning em {
+  opacity: 50%;
+  font-family: "Syne", sans-serif;
 }

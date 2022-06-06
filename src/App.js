@@ -1,17 +1,15 @@
 import "./App.css";
+
 import DictionarySearch from "./DictionarySearch";
 
 function App() {
   return (
     <div className="App">
-      <header className="app-header">
-        <h1>Dictionary</h1>
-      </header>
+      <header className="app-header"></header>
       <main>
         <DictionarySearch />
       </main>
       <footer className="app-footer">
-        <hr />
         <br />
         Coded by{" "}
         <a

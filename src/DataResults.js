@@ -1,5 +1,4 @@
 import React from "react";
-import "./DataResults.css";
 import DataMeaning from "./DataMeaning";
 import Phonetics from "./Phonetics";
 
@@ -7,20 +6,22 @@ export default function DataResults(props) {
   if (props.data) {
     return (
       <div className="DataResults">
-        <h2 className="title">{props.data.word}</h2>
-        {props.data.phonetics.map(function (phonetics, index) {
-          return (
-            <div key={index}>
-              <Phonetics phonetics={phonetics} />
-            </div>
-          );
-        })}
+        <section>
+          <h2 className="title">{props.data.word}</h2>
+          {props.data.phonetics.map(function (phonetics, index) {
+            return (
+              <div key={index}>
+                <Phonetics phonetics={phonetics} />
+              </div>
+            );
+          })}
+        </section>
 
         {props.data.meanings.map(function (meaning, index) {
           return (
-            <div key={index}>
+            <section key={index}>
               <DataMeaning meaning={meaning} />
-            </div>
+            </section>
           );
         })}
       </div>
