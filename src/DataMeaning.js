@@ -1,5 +1,6 @@
 import React from "react";
 import "./DataMeaning.css";
+import Synonyms from "./Synonyms";
 
 export default function DataMeaning(props) {
   return (
@@ -13,6 +14,7 @@ export default function DataMeaning(props) {
               <br />
               <em>{definition.example}</em>
             </p>
+            <Synonyms synonyms={definition.synonyms} />
           </div>
         );
       })}
