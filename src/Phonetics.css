@@ -1,6 +1,5 @@
 audio {
   width: 150px;
-  opacity: 30%;
 }
 .phoneticsText {
   font-size: 18px;
@@ -11,4 +10,7 @@ audio::-webkit-media-controls-time-remaining-display {
 }
 audio::-webkit-media-controls-timeline {
   display: none;
+}
+audio::-webkit-media-controls-panel {
+  background-color: rgb(82, 82, 82);
 }
