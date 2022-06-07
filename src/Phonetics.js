@@ -1,12 +1,18 @@
 import React from "react";
+import "./Phonetics.css";
 
 export default function Phonetics(props) {
   return (
     <div className="Phonetics">
-      <a href={props.phonetics.audio} target="_blank" rel="noreferrer">
-        Listen
-      </a>{" "}
-      {props.phonetics.text}
+      <p>
+        {" "}
+        <audio controls src={props.phonetics.audio}>
+          Your browser does not support the
+          <code>audio</code> element.
+        </audio>{" "}
+      </p>
+
+      <p className="phoneticsText">{props.phonetics.text}</p>
     </div>
   );
 }

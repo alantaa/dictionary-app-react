@@ -41,7 +41,7 @@ export default function DictionarySearch() {
           </form>
           <p className="hint">
             {" "}
-            Suggested words: sunset, wine, yoga, plants...{" "}
+            Suggested words: sunset, cats, robot, plants...
           </p>
         </section>
         <DataResults data={results} />
