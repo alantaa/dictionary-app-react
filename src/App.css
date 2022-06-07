@@ -1,6 +1,3 @@
-.app-header h1 {
-  text-align: center;
-}
 .app-header {
   background-image: url("./books-cat.jpg");
   background-position: right;
@@ -15,4 +12,13 @@
 }
 .app-footer a {
   color: #5a5a5a;
+}
+
+@media (max-width: 576px) {
+  .app-header {
+    background-image: url("./books3.jpg");
+    background-position: top;
+    height: 40vh;
+    width: 100vw;
+  }
 }
