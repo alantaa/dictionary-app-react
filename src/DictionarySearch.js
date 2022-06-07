@@ -47,7 +47,7 @@ export default function DictionarySearch() {
     return (
       <div className="DictionarySearch">
         <section>
-          <h2> "What does that word mean again?" </h2>
+          <h1 className="intro"> "What does that word mean again?" </h1>
           <form onSubmit={handleSubmit}>
             <input type="search" onChange={handleChange} />
           </form>

@@ -11,6 +11,9 @@
   border-radius: 5px;
   font-size: 18px;
 }
+.DictionarySearch .intro {
+  font-size: 32px;
+}
 .DictionarySearch .hint {
   opacity: 50%;
   font-size: 14px;
@@ -20,5 +23,10 @@
 @media (max-width: 900px) {
   .DictionarySearch section {
     margin: 20px 20px;
+  }
+  .DictionarySearch .intro {
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 26px;
   }
 }
