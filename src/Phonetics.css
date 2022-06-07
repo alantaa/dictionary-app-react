@@ -1,8 +1,10 @@
 audio {
   width: 150px;
+  margin-top: 20px;
 }
 .phoneticsText {
   font-size: 18px;
+  line-height: 1;
 }
 
 audio::-webkit-media-controls-time-remaining-display {
